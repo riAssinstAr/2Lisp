@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="yaml2lisp",
+    name="tolisp",
     version="0.1.0",
     packages=find_packages(),
     author="Ankit Kumar Ravi",
-    description="Convert YAML/JSON files to Lisp-style S-expressions",
+    description="Convert YAML/JSON files to Lisp style S-expressions",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/riAssinstAr",
@@ -14,7 +14,7 @@ setup(
     install_requires=["pyyaml"],
     entry_points={
         "console_scripts": [
-            "yaml2lisp=yaml2lisp.main:main"
+            "tolisp=tolisp.main:main"
         ]
     },
     classifiers=[

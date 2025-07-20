@@ -1,9 +1,15 @@
-# yaml2lisp
+# toLisp
 
-Convert structured YAML or JSON files into Lisp-style S-expressions.
+Convert structured YAML or JSON files into Lisp style S-expressions.
 
 ## Installation
 
 ```bash
-pip install yaml2lisp
+pip install 2lisp
+```
+
+## Usage
+
+```bash
+tolisp <yaml or json file>
 ```
