@@ -10,7 +10,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/riAssinstAr",
     license="MIT",
-    python_requires=">=3.6",
+    python_requires=">=3.7",
     install_requires=["pyyaml"],
     entry_points={
         "console_scripts": [
