@@ -31,7 +31,7 @@ python setup.py sdist bdist_wheel
 Install:
 
 ```bash
-pip install .\dist\*.whl
+pip install .\dist\tolisp-0.1.0-py3-none-any.whl
 ```
 
 NOTE: This project was a part of LFX mentorship task submission under RISC-V.
